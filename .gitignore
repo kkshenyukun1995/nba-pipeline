@@ -20,3 +20,10 @@ __pycache__/
 
 # Logs
 logs/
+
+# dbt project config (profiles and user telemetry cookie)
+dbt_project/config/profiles.yml
+dbt_project/config/.user.yml
+
+# If you'd prefer to ignore the entire config folder uncomment the following:
+# dbt_project/config/
